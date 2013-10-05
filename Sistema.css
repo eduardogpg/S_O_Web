@@ -1,0 +1,253 @@
+body{
+	background-color: #AFA3A3;
+	display: inline-table;
+}#tablet{
+	background-color: #100F0F;
+	margin-left: 50px;
+	height: 620px;
+	width: 1150px;
+
+	border-radius: 20px;
+	padding: 5px;
+	position: absolute;
+	left: 100px;
+	top: 40px;
+
+}
+#next{
+	height: 180px;
+	width: 20px;
+	background-color: #497BCC;
+	border-radius: 15px;
+	position: absolute;
+	left: 40px;
+	top: 250px;
+	cursor: pointer;
+}
+#back{
+	height: 180px;
+	width: 20px;
+	background-color: #497BCC;
+	border-radius: 15px;
+	position: absolute;
+	left: 1400px;
+	top: 250px;
+	cursor: pointer;
+}
+#display{
+	background-color: #2D3A50;
+	width: 1020px;
+	height: 570px;
+	margin-left: 60px;
+	margin-top: 20px;
+	padding: 5px;
+	border-radius: 5px;
+}
+#usuario{
+	background-image: url("wal.jpg");
+	width: 1020px;
+	height: 570px;
+	border-radius: 5px;
+	position: absolute;
+	cursor: pointer;
+	
+
+}
+#desktop{
+	position: absolute;
+	display: inline-block;
+	background-image: url("wal_2.jpg");
+	width: 1020px;
+	height: 570px;
+	border-radius: 5px;
+	-webkit-transition:all 2s ease;
+	}
+#menu{
+
+	opacity: 0.9;
+	position: absolute;
+	height: 20px;
+	width: 1020px;
+	border-radius: 5px;
+	background-color:#CD4795;
+	display: inline-block;
+	-webkit-transition:all 1s ease;
+	cursor: pointer;
+}
+
+#gmail{
+	position: absolute;
+	border-radius: 10px;
+	margin-left: 900px;
+	margin-top: 100px;
+}
+#google{
+	position: absolute;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-top: 120px;
+
+	}
+#box{
+	border-radius: 10px;
+	position: absolute;
+	margin-left: 400px;
+	margin-top: 400px;
+}
+#papelera{
+	position: absolute;
+	border-radius: 10px;
+	margin-left: 500px;
+	margin-top: 400px;
+		
+}
+#grabar{
+	border-radius: 10px;
+	position: absolute;
+	margin-left: 600px;
+	margin-top: 400px;
+
+}
+#twitter{
+	position: absolute;
+	border-radius: 10px;
+	margin-left: 300px;
+	margin-top: 400px;
+}
+
+#call{
+	border-radius: 10px;
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 200px;
+	visibility: hidden;
+}
+#telefono{
+	border-radius: 10px;
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 100px;
+	visibility: hidden;
+	
+		}
+#msg{
+	border-radius: 10px;
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 100px;
+	visibility: hidden;	
+	
+}
+#nintendo{
+	border-radius: 10px;
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 300px;
+	visibility: hidden;
+	cursor: pointer;
+
+}
+#face{
+	border-radius: 10px;
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 400px;
+	visibility: hidden;
+}
+#me{
+	border-radius: 10px;
+	position: absolute;
+	margin-left: 800px;
+	margin-top: 100px;
+	visibility: hidden;
+	cursor: pointer;
+		
+}
+#rio{
+border-radius: 10px;
+	position: absolute;
+	margin-left: 800px;
+	margin-top: 200px;
+	visibility: hidden;
+		
+}
+
+
+
+#pa{border-radius: 10px; visibility: hidden;margin-left: 140px;margin-left: 300px;
+-webkit-transition:all 0.3s ease;}
+#ga{border-radius: 10px; visibility: hidden;margin-left: 40px;margin-left: 50px;
+-webkit-transition:all 0.3s ease;}
+#ti{border-radius: 10px; visibility: hidden;margin-left: 40px;margin-left: 50px;
+-webkit-transition:all 0.3s ease;}
+
+#calculadora{
+	height: 400px;
+	width: 300px;
+	background-color: #4A3E3E;
+	border-radius: 10px;
+	padding: 10px;
+	position: absolute;
+	margin-left: 400px;
+	margin-top: 100px;
+	visibility: hidden;
+
+}
+.numeros{
+		display: inline-block;
+	padding: 13px;
+	border-radius: 10px;
+	width: 20px;
+	height: 20px;
+	margin: 10px;
+	background-color: #BF8484;	
+	cursor: pointer;
+}
+.operadores{
+	display: inline-block;
+	padding: 13px;
+	border-radius: 10px;
+	width: 20px;
+	height: 20px;
+	margin: 10px;
+	background-color: #CA2727;	
+	cursor: pointer;
+}
+#datos{
+	background-color: #B7C3C9;
+	height: 450px;
+	width: 500px;
+	border-radius: 20px;
+	padding: 20px;
+	position: absolute;
+	left: 220px;
+	top: 100px;
+	display: inline-block;
+	visibility: hidden;
+}
+#logo{
+	position: relative;
+	display: inline-block;
+	border-radius: 5px;
+	position: relative;
+	margin-left: 120px;
+	margin-top: 20px;
+}
+#salir{
+	background-color: #218C89;
+	height: 50px;
+	width: 35px;
+	border-radius: 5px;
+	padding: 5px;
+	cursor: pointer;
+}
+#CalcW{
+	height: 60px;
+	width: 120px;
+	padding: 5px;
+	background-color: red;
+	position: absolute;
+	margin-top: 600px;
+	margin-left: 600px;
+	cursor: pointer;
+}
